@@ -2,7 +2,7 @@
 ## common repositories
 ![Java](http://incdn1.b0.upaiyun.com/2016/02/5a7ce0b39fb88e69854124d89bbc2a38.jpg)
 
-![jar fire](http://cn.jarfire.org/img/logo.png)(http://cn.jarfire.org/)
+![jar fire](http://cn.jarfire.org/img/logo.png)<br/>(http://cn.jarfire.org/)
 * Java 代码优化
 * [ImportNew Java代码优化](http://www.importnew.com/21224.html)<br/>
 <space>**ThreadLocal使用前或使用后要remove**<br/>
