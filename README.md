@@ -13,5 +13,7 @@
 * [Java 面试总结](http://www.importnew.com/21445.html)
 * [HashMAp的工作原理](https://github.com/WikiDown/mvn-repository/blob/master/JDK-1.8.0/HashMap.java)
 * (http://www.importnew.com/7099.html)
+* [每个程序员都必读的10篇文章](http://www.importnew.com/21527.html)
 * 
+
 
