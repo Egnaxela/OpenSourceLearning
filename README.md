@@ -1,6 +1,6 @@
 #  mvn-repository
 ## common repositories
-[![jar fire](http://cn.jarfire.org/img/logo.png "jar fire")](http://cn.jarfire.org/)
+[![jar fire](http://cn.jarfire.org/img/logo.png "jar包搜索")](http://cn.jarfire.org/)
 
 * Java 代码优化
 * [ImportNew Java代码优化](http://www.importnew.com/21224.html)<br/>
