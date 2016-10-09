@@ -29,4 +29,4 @@
    2.序列化功能<br/>
    3.反序列化功能
   
-  ### [String详解](https://github.com/WikiDown/mvn-repository/new/master/JDK-1.8.0/string.md)
+  ### [String详解](https://github.com/WikiDown/mvn-repository/new/master/JDK-1.8.0/String.md)
