@@ -26,9 +26,10 @@
       if((index<0)||(index>=value.length)){
         throw new StringIndexOutOfBoundsException(index);
       }
-        
+      return value[index];
     }
   ```
+    
       
 
   [Java堆、栈和常量池以及相关String的详细讲解](http://www.cnblogs.com/xiohao/p/4296088.html)<br/>
