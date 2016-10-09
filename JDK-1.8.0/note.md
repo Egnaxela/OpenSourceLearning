@@ -6,7 +6,7 @@
   serialVersionUID有两种显式的生产方式：
   1. 默认的1L，如：private static final long serialVersionUID=1L;
   2. 根据类名、接口名、成员方法及属性等来生成一个64位的哈希字段，如：<br/>
-     <code>private static final serialVersionUID=362498820763181265L</code>  [HashMap.Java](https://github.com/WikiDown/mvn-repository/blob/master/JDK-1.8.0/HashMap.java)
+     <code>private static final serialVersionUID=362498820763181265L</code>  [HashMap.Java](https://github.com/WikiDown/mvn-repository/blob/master/JDK-1.8.0/HashMap.java)<br/>
   当实现Serializable接口的类没有上述显式的定义一个serialVersionUID变量时，Java序列化机制会根据编译的Class
 自动生成一个serialVersionUID作序列化版本比较。<br/>
   常用情况如下：<br/>
