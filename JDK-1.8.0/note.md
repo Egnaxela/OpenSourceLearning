@@ -11,19 +11,21 @@
 自动生成一个serialVersionUID作序列化版本比较。<br/>
   常用情况如下：<br/>
   1.序列化实体类 <br/>
-    import java.io.Serializable;<br/>
-    public class Person implements Serializable{<br/>
-      private static final long serialVersionUID = 1234567890L;<br/>
-      public int id;<br/>
-      public String name;<br/>
-      public Person(int id, String name){<br/>
-        this.id = id;<br/>
-        this.name = name;<br/>
-      }<br/>
-      public String toString(){<br/>
-        return "Person: " + id + " " + name;<br/>
-      }<br/>
+  ```java
+    import java.io.Serializable;
+    public class Person implements Serializable{
+      private static final long serialVersionUID = 1234567890L;
+      public int id;
+      public String name;
+      public Person(int id, String name){
+        this.id = id;
+        this.name = name;
+      }
+      public String toString(){
+        return "Person: " + id + " " + name;
+      }
     }
-  <br/>2.序列化功能
-  <br/>3.反序列化功能
+    ```
+   2.序列化功能<br/>
+   3.反序列化功能
   
