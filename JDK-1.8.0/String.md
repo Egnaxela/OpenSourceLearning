@@ -20,7 +20,9 @@
       return value.length==0;
     }
   ```
+
   * charAt(int index)
+
   ```java
     public char charAt(int index){
       if((index<0)||(index>=value.length)){
@@ -29,6 +31,22 @@
       return value[index];
     }
   ```
+
+  * codePointAt(int index)
+
+  ```java
+    public int codePointAt(int index){
+      if((index<0)||(index>=value.length)){
+        throw new StringIndexOutOfBoundsException(index);
+      }
+      return Character.codePointAtImpl(value,index,value.length);
+    }
+   ```
+
+   charAt(int index)返回指定位置的字符<br/>
+   codePointAt(int index)返回指定索引处的字符（Unicode代码点）<br/>
+   即返回的是对应字符的Unicode值，如 charAt() 返回 a,codePointAt()返回 97<br/>
+      
     
       
 
