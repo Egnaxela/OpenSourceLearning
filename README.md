@@ -13,6 +13,6 @@
 * [HashMap的工作原理](https://github.com/WikiDown/mvn-repository/blob/master/JDK-1.8.0/HashMap.java)
 * (http://www.importnew.com/7099.html)
 * [每个程序员都必读的10篇文章](http://www.importnew.com/21527.html)
-* 
+* [坚持完成这套学习手册，你就可以去 Google 面试了](http://geek.csdn.net/news/detail/107064)
 
 
