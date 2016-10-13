@@ -46,6 +46,46 @@
    charAt(int index)返回指定位置的字符<br/>
    codePointAt(int index)返回指定索引处的字符（Unicode代码点）<br/>
    即返回的是对应字符的Unicode值，如 charAt() 返回 a,codePointAt()返回 97<br/>
+
+   * codePointBefore(int index)
+   ```java
+     public int codePointBefore(int index){
+        int i=index-1;
+        if((i<0)||(i>=value.length)){
+          throw new StringIndexOutOfBoundsException(index);
+        }
+        return Character.codePointBeforeImpl(value,index,0);
+     }
+   ```
+   codePointBefore(int index)返回指定元素的前一个代码点
+
+  * <font size=4>equals(Object anObject)</font>
+  ```java
+    public boolean equals(Object anObject){
+      if(this==anObject){
+        return true;
+      }
+      if(anObject instanceof String){
+        String anotherString =(String)anObject;
+        int n=value.length;
+        if(n==anotherString.value.length){
+          char v1[]=value;
+          char v2[]=antherString.value;
+          int i=0;
+          while(n-- !=0){
+            if(v1[i]!=v2[i])
+              return false; 
+            i++;
+          }
+          return true;
+        }
+      }
+      return false;
+    }
+  ```
+
+
+
       
     
       
