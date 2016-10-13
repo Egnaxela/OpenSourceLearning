@@ -32,6 +32,7 @@
     }
   ```
 
+
   * codePointAt(int index)
 
   ```java
