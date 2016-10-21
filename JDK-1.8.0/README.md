@@ -31,4 +31,6 @@
   
   #### [String详解](https://github.com/WikiDown/mvn-repository/blob/master/JDK-1.8.0/String.md)
   #### [HashMap详解](https://github.com/WikiDown/mvn-repository/blob/master/JDK-1.8.0/HashMap.md)
+  #### [Object详解]()
+
   
