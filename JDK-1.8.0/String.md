@@ -1,5 +1,6 @@
   String实质是一个字符数组，String类不可被继承，不可变性。<br/>
-  [String为什么不可变](http://blog.csdn.net/zhangjg_blog/article/details/18319521)<br/>
+  [String为什么不可变](http://blog.csdn.net/zhangjg_blog/article/details/18319521)<br/><br/>
+  <hr/>
   String的基本方法：
   * length( )<br/>
 
