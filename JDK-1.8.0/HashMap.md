@@ -51,6 +51,12 @@ transfer：<br/>
 如果转移链表前为1-2-3，转移后为3-2-1，死锁的问题就是同时1-2,2-1造成。<br/>
 HashMap的死锁问题就出在，transfer( )方法。<br/>
 
+JDK6、7中的HashMap
+HashMap底层维护的是一个数组，数组的每一项都是一个Entry
+```java
+transient Entry<k,v>[] table;
+```
+向HashMap中放置的对象实际上是存储在该数组中；
 
 
 ####[JDK7与JDK8中HashMap的实现](https://my.oschina.net/hosee/blog/618953)
