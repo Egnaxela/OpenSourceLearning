@@ -50,7 +50,7 @@ transfer：<br/>
 4. 循环1，直到所有索引数组全部转移<br/>
 如果转移链表前为1-2-3，转移后为3-2-1，死锁的问题就是同时1-2,2-1造成。<br/>
 HashMap的死锁问题就出在，transfer( )方法。<br/>
-
+<hr/>
 JDK6、7中的HashMap
 HashMap底层维护的是一个数组，数组的每一项都是一个Entry
 ```java
