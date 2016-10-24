@@ -130,6 +130,7 @@ HashMap底层维护的是一个数组，数组的每一项都是一个Entry
     }
 
 ```
+hash值相同的Entry会放在同一位置，用链表相连，通过key的hashCode来计算
 
 
 ####[JDK7与JDK8中HashMap的实现](https://my.oschina.net/hosee/blog/618953)
