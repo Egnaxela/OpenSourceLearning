@@ -51,7 +51,7 @@ transfer：<br/>
 如果转移链表前为1-2-3，转移后为3-2-1，死锁的问题就是同时1-2,2-1造成。<br/>
 HashMap的死锁问题就出在，transfer( )方法。<br/>
 <hr/>
-JDK6、7中的HashMap
+JDK6、7中的HashMap(以下为1.6)
 HashMap底层维护的是一个数组，数组的每一项都是一个Entry
 ```java
   transient Entry<k,v>[] table;
@@ -130,7 +130,37 @@ HashMap底层维护的是一个数组，数组的每一项都是一个Entry
     }
 
 ```
-hash值相同的Entry会放在同一位置，用链表相连，通过key的hashCode来计算
+hash值相同的Entry会放在同一位置，用链表相连，通过key的hashCode来计算；
+JDK1.8中已经不用了。
+```java
+   static int hash(int h){
+     h ^=(h >>>20 )^(h >>> 12);
+     return h^ (h >>> 7) ^ (h >>> 4);
+   }
+```
+通过hash计算出来的值将会使用indexFor方法找到它所在的table下标
+```java
+   static int indexFor(int h,int length){
+     return h & (length-1);
+   }
+```
+当两个key通过hashCode计算相同时，则发生了hash冲突，在1.6中HashMap解决冲突的是使用链表。
+当发生hash冲突时，则将存放在数组中Entry设置为新值，新值放在数组中，旧值放在新值的链表上。
+
+<hr/>
+一直到JDK1.7为止，HashMap都是基于数组和链表实现的，当hash值冲突时，就将对应节点以链表的形式存储。
+JDK1.7采用的是位桶+链表的方式，即散列链表的方式，而在JDK1.8中采用的是位桶+链表/红黑树，是非线程安全的，
+当某个位桶的链表长度达到某个阈值的时候，这个链表就将转换为红黑树。
+```java
+  transient Node<K,V>[] table;
+```
+1.8中不在使用Entry而使用Node,因为红黑树的实现和TreeNode关联。
+```java
+  static final int hash(Object key){
+    int h;
+    return (key == null)? 0:(h =key.hashCode()) ^ (h>>>16);
+  }
+``
 
 
 ####[JDK7与JDK8中HashMap的实现](https://my.oschina.net/hosee/blog/618953)
