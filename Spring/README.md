@@ -67,3 +67,9 @@ XmlBeanFactory
 ###[默认标签的解析](https://github.com/WikiDown/mvn-repository/blob/master/Spring/Chapter%203.md)
 
 
+<hr/>
+[IOC与DI](http://www.importnew.com/13619.html)
+[知识点](http://www.importnew.com/19933.html)
+
+
+
