@@ -13,6 +13,7 @@
 * [SimonS's Algo 算法专栏](https://zhuanlan.zhihu.com/simons)
 * [红黑树-0](http://www.importnew.com/21818.html)
 * [红黑树-1](http://www.importnew.com/21822.html)<br/>
+* [July红黑树](http://www.cnblogs.com/v-July-v/archive/2010/12/29/1983707.html)
 
 ## 搜索算法
 [路径搜索算法](http://www.webhek.com/pathfinding)
