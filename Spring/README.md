@@ -68,8 +68,8 @@ XmlBeanFactory
 
 
 <hr/>
-[IOC与DI](http://www.importnew.com/13619.html)
-[知识点](http://www.importnew.com/19933.html)
+[IOC与DI小结](http://www.importnew.com/13619.html)<br/>
+[Spring知识点](http://www.importnew.com/19933.html)
 
 
 
