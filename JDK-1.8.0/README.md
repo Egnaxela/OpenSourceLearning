@@ -32,5 +32,7 @@
   #### [String详解](https://github.com/WikiDown/mvn-repository/blob/master/JDK-1.8.0/String.md)
   #### [HashMap详解](https://github.com/WikiDown/mvn-repository/blob/master/JDK-1.8.0/HashMap.md)
   #### [Object详解](https://github.com/WikiDown/mvn-repository/blob/master/JDK-1.8.0/Object.md)
+  #### [Class类反射小结](https://github.com/WikiDown/OpenSourceStructure/tree/master/JDK-1.8.0/Class.md)
+
 
   
