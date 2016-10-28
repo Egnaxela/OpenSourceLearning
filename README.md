@@ -16,5 +16,8 @@
 * [Java回调机制](http://www.importnew.com/22031.html)
 * [Java后端书架](http://www.importnew.com/22064.html)
 * [Java IO模型](http://www.importnew.com/22019.html)
+<hr/><br/>
+* [Java 深入学习系列](http://www.ibm.com/developerworks/cn/views/java/libraryview.jsp?search_by=%E6%82%A8%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84+5+%E4%BB%B6%E4%BA%8B)
+
 
 
