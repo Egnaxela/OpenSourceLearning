@@ -34,6 +34,7 @@
   #### [Object详解](https://github.com/WikiDown/mvn-repository/blob/master/JDK-1.8.0/Object.md)
   #### [Class类反射小结](https://github.com/WikiDown/OpenSourceStructure/tree/master/JDK-1.8.0/Class.md)
   #### [ClassLoader小析](https://github.com/WikiDown/OpenSourceStructure/tree/master/JDK-1.8.0/ClassLoader.md)
+  #### [Method小析](https://github.com/WikiDown/OpenSourceStructure/tree/master/JDK-1.8.0/Method.md)
 
 
   
