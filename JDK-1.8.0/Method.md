@@ -21,11 +21,3 @@
 Java反射机制：是一种运行状态，对于任意一个类，都能够知道这个类的所有属性和方法；
             可以在运行时判断任意一个对象所属的类；在运行时构造任意一个类的对象。
             
-```java
-public Object getProperty(Object owner,String fieldName) throws Exception{
-    Class ownerClass=owner.getClass();
-    Field field = ownerClass.getField(fieldName);
-    Object property=field.get(owner);
-    return property;
-}
-```
