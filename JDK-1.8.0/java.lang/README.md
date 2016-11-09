@@ -17,6 +17,12 @@
 }
   ```
   
-2. [CharSequence](https://github.com/WikiDown/OpenSourceStructure/blob/master/JDK-1.8.0/java.lang/CharSequence.java) 是char值的一个可读序列
+2. [CharSequence](https://github.com/WikiDown/OpenSourceStructure/blob/master/JDK-1.8.0/java.lang/CharSequence.java) 是char值的一个可读序列<br/>
+   ```java
+   public default IntStream chars(){...}
+   ```
+	
+
+
 
 ####类
