@@ -20,7 +20,11 @@
 2. [CharSequence](https://github.com/WikiDown/OpenSourceStructure/blob/master/JDK-1.8.0/java.lang/CharSequence.java) 是char值的一个可读序列<br/>
    ```java
    public default IntStream chars(){...}
+   
+   public default InStream codePoints(){...}
+
    ```
+   JDK1.8新特性之：接口中可以有default修饰的方法的方法体
 	
 
 
