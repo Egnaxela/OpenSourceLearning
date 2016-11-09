@@ -24,7 +24,7 @@
    public default InStream codePoints(){...}
 
    ```
-   JDK1.8新特性之：接口中可以有default修饰的方法的方法体
+   JDK1.8新特性之：接口中可以有default或static 修饰的方法的方法体
 	
 
 
