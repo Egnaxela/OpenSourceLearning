@@ -4,4 +4,5 @@
 ####接口
 1. Appendable 能够被添加char序列和值的对象
 2. CharSequence 是char值的一个可读序列
+
 ####类
