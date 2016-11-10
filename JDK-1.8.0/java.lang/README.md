@@ -34,7 +34,7 @@
    ```
    JDK1.8新特性之：接口中可以有default或static 修饰的方法的方法体<br/>
    
-3. [Cloneable](https://github.com/WikiDown/OpenSourceStructure/blob/master/JDK-1.8.0/java.lang/Cloneable.java),指示Object.clone()方法可以合法的对该类的实例进行按字段复制。<br/>
+3. [Cloneable](https://github.com/WikiDown/OpenSourceStructure/blob/master/JDK-1.8.0/java.lang/Cloneable.java)用来指示Object.clone()方法可以合法的对该类的实例进行按字段复制。<br/>
    ```java
    public interface Cloneable(){
    
@@ -42,8 +42,8 @@
    ```
    如果某实例没有实现Cloneable接口，就直接调用Object的clone方法就会报CloneNotSupportException
    ![代码](https://github.com/WikiDown/OpenSourceStructure/blob/master/JDK-1.8.0/java.lang/images/Cloneable-001.png)<br/><br/>
-   ![报错](https://github.com/WikiDown/OpenSourceStructure/blob/master/JDK-1.8.0/java.lang/images/Cloneable-000.png)
-   数组默认实现了Cloneable接口
+   ![报错](https://github.com/WikiDown/OpenSourceStructure/blob/master/JDK-1.8.0/java.lang/images/Cloneable-000.png)<br/>
+   数组默认实现了Cloneable接口,以下代码不会报错<br/>
    ```java
    int[] max=new int[]{2,3,4,5};
    int[] min=max.clone();
