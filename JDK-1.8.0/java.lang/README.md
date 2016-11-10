@@ -32,7 +32,17 @@
    public default InStream codePoints(){...}
 
    ```
-   JDK1.8新特性之：接口中可以有default或static 修饰的方法的方法体
+   JDK1.8新特性之：接口中可以有default或static 修饰的方法的方法体<br/>
+   
+3. [Cloneable](https://github.com/WikiDown/OpenSourceStructure/blob/master/JDK-1.8.0/java.lang/Cloneable.java),指示Object.clone()方法可以合法的对该类的实例进行按字段复制。<br/>
+   ```java
+   public interface Cloneable(){
+   
+   }
+   ```
+   		
+   
+   
 	
 
 
