@@ -19,6 +19,14 @@
   
 2. [CharSequence](https://github.com/WikiDown/OpenSourceStructure/blob/master/JDK-1.8.0/java.lang/CharSequence.java) 是char值的一个可读序列<br/>
    ```java
+   int length();
+   
+   char charAt(int index);
+   
+   CharSequence subSequence(int start,int end);
+   
+   public String toString();
+   
    public default IntStream chars(){...}
    
    public default InStream codePoints(){...}
