@@ -1,6 +1,6 @@
 #  mvn-repository
 <hr/><hr/>
-##  [JDK1.8源码解析](https://github.com/WikiDown/OpenSourceStructure/tree/master/JDK-1.8.0)
+##  [JDK1.8 源码解析](https://github.com/WikiDown/OpenSourceStructure/tree/master/JDK-1.8.0)
 ##  [Spring 源码解析](https://github.com/WikiDown/OpenSourceStructure/tree/master/Spring)
 
 [![jar fire](http://cn.jarfire.org/img/logo.png "jar包搜索")](http://cn.jarfire.org/)
