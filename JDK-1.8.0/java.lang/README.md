@@ -40,6 +40,9 @@
    
    }
    ```
+   如果某实例没有实现Cloneable接口，就直接调用Object的clone方法就会报CloneNotSupportException
+   ![代码]()
+   ![报错]()
    		
    
    
